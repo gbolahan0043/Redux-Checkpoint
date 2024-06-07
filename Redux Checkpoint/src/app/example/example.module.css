@@ -1,0 +1,11 @@
+
+.myHeader{
+    display: flex;
+    padding: 20px;
+    background-color: yellowgreen;
+    border-radius: 50px;
+}
+
+.hand{
+    color: aquamarine;
+}
