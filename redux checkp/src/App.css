@@ -1,0 +1,40 @@
+.app {
+  margin-top: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #081f05;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  
+}
+
+.task.done span {
+  text-decoration: line-through;
+}
+
+.task input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 5px;
+}
